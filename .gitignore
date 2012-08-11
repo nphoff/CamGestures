@@ -1,0 +1,5 @@
+#ignoring the haar classifiers
+*.xml
+
+#ignoring the compiled file
+CamGestures
