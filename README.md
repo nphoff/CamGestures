@@ -9,11 +9,11 @@ read in the webcam data stream.
 
 The current method is as follows:
 
-1 - Haar Classifier Image detection (facial recognition)
-2 - YCbCr Colourspace filtering (for skin tones)
-3 - Center of mass estimates for masks (differentiate hand and face)
-4 - Convex Hull modelling (hand)
-5 - Convex Hull defecit (hand)
+* Haar Classifier Image detection (facial recognition)
+* YCbCr Colourspace filtering (for skin tones)
+* Center of mass estimates for masks (differentiate hand -- green circle, and face -- white circle)
+* Convex Hull modelling (hand -- green contour)
+* Convex Hull defecit (hand -- blue circles)
 
 ![Cam Gestures Webcam Stream Snapshot](http://i.imgur.com/vRc2Q.jpg "Showing different features currently implemented")
 
